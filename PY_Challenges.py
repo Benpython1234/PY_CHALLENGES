@@ -19,7 +19,7 @@ def check_winner(board):
 
 def full_board(board):
       return all(cell != " " for row in board for cell in row)
-def main_board(board):
+def main_board():
       board = [[" " for _ in range(3)]for _ in range(3)]
       current_player = "X"
       while True:
